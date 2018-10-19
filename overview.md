@@ -1,4 +1,4 @@
-
+![]("https://github.com/pguse/ics3u/blob/master/crest.jpg")
 ## Albert College Mathematics and Computer Studies Department
 ### Grade 11 Introduction to Computer Science ~ ICS3U 
 
