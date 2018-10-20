@@ -1,3 +1,5 @@
+# Input-Output
+
 ## The input\(\) Function
 
 The **input\(\)** function is used as follows to get text input from the keyboard.
