@@ -1,4 +1,4 @@
-# Repetition in Python
+# Repetition
 
 ## The for-loop:
 
