@@ -17,7 +17,7 @@ Enter your name: Mr. Guse
 => <class 'str'>
 ```
 
-It doesn't matter whether you type letters & punctuation or numbers, the variable will still be of type string. For example,
+It doesn't matter whether you type letters & punctuation or numbers, the variable will still be of type **string** . For example,
 
 ```
 >> year = input("Enter the year:")
@@ -35,7 +35,7 @@ Enter the year: 2017
 => '20172017'
 ```
 
-the result is the repetition of a string instead of doubling the value 2017.  To remedy this, we can use the **int\(\)** function as follows to change the input value to an integer.
+the result is the repetition of a string instead of doubling the value 2017.  To remedy this, we can use the **int\(\)** function as follows to change the input value to an **integer**.
 
 ```
 >> year = int( input("Enter the year:") )
@@ -44,7 +44,7 @@ Enter the year: 2017
 => 4034
 ```
 
-Similarly, if we wanted a decimal value we could use the **float\(\)** function as follows:
+Similarly, if we wanted a decimal ***(floating point)*** value we could use the **float\(\)** function as follows:
 
 ```
 >> balance = float( input("Enter your bank balance:") )
