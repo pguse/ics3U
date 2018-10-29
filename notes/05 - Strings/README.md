@@ -15,7 +15,7 @@ c
 k
 ```
 
-Here is how the **string** stored with the variable / identifier** ** **word** is stored
+Here is how the **string** stored with the variable / identifier **word** is stored
 
 | **0** | **1** | **2** | **3** | **4** | **5** | **6** |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -67,7 +67,7 @@ for i in range(len(word) ):
 c h i c k e n
 ```
 
-where the variable ** i** stores the index values 0, 1, 2, 3, 4, 5, 6 during each iteration of the loop.
+where the variable **i** stores the index values 0, 1, 2, 3, 4, 5, 6 during each iteration of the loop.
 
 ## **Constructing a String Character-by-Character**
 
