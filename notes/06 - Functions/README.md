@@ -2,7 +2,7 @@
 
 The way in which functions work in Python is similar to the way a computer works.  Both the functions found in software and computer hardware in general can be described using an **INPUT-PROCESSING-OUTPUT** model.
 
-![](/assets/inputOutputDrawing.png)
+![](inputOutputDrawing.png)
 
 A computer takes some sort of **data **\(numbers, strings, images, video\) as **INPUT**, performs some sort of **PROCESSING** on the data \(calculations involving numbers, modifying text in an email, editing pixels in an image\), and then produces some sort of **OUTPUT** \(text/graphics on the screen, a new file or email\).  A function in Python acts in much the same way, except that it **may/may not** take **INPUT** and it **may/may not** produce an **OUTPUT**.
 
@@ -46,5 +46,5 @@ print( cube(4) )
 
 Using a **INPUT-PROCESSING-OUTPUT** model, here is what is happening with the **cube\(\)** function.
 
-![](/assets/inputOutputFunctionDrawing.png)
+![](inputOutputFunctionDrawing.png)
 
