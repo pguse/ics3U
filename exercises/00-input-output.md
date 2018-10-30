@@ -19,4 +19,6 @@ Create a file called **dayWeek.py**.  Let's count the days of the week as follow
 ## 00-5: Snail
 Create a program called **snail.py**.  A snail goes **up A centimetres** during the day and **falls B centimetres** at night. How long does it take him to go up **H centimetres**? **Given** three integer numbers **H, A and B** (A > B), the program should **output** a **number of days**.  Think about how you will determine (test) if your program is working.  As a comment in your program, describe what you did to test that your program functions correctly.
 
+---
+
 ***Reference:  http://snakify.org***
