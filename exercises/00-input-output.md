@@ -21,4 +21,4 @@ Create a program called **snail.py**.  A snail goes **up A centimetres** during 
 
 ---
 
-***Reference:  http://snakify.org***
+***Reference:***  http://snakify.org
