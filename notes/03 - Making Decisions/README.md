@@ -21,7 +21,7 @@ n = int(input("Enter a number: "))
 if n % 2 == 0:
     print("The number is even.")
 else:
-    print("The number if odd.")
+    print("The number is odd.")
 ```
 
 If there are more than two options, then the **if/elif/else** could be used,
