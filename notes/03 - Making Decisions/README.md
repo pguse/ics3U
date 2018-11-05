@@ -50,6 +50,20 @@ All **if/elif/else** statements use **Boolean** values, even though that may not
 * print( 3 > 1) produces the value **True**
 * print( 2 < 5 ) produces the value **False**.
 
+For example, the code
+
+```python
+print(3 > 1)
+print(2 < 5)
+```
+
+produces
+
+```
+True
+False
+```
+
 The values **True** and **False** are called **Boolean** values.
 
 If you need to test more than one condition you may need to use a **logical operator**.  In Python, the logical operators are the keywords **and** and **or**.  For example,
