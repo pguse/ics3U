@@ -70,3 +70,17 @@ If you need to test more than one condition you may need to use a **logical oper
 
 * print( 3 > 1 **or** 2 < 5) produces the value **True** because one of the conditions is true.  Both conditions must be false to produce the value **False**.
 * print( 1 < 3 **and** 2 < 5) produces the value **True** because both conditions are true.  If one condition is false, then the value produced will be **False**.
+
+For example, the code
+
+```python
+print(3 > 1 or 2 < 5)
+print(1 < 3 and 2 < 5)
+```
+
+produces
+
+```
+True
+True
+```
