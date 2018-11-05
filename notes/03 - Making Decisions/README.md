@@ -13,6 +13,35 @@ These statements require that you use one of a number of comparison operators.  
 * \=\=  ***(equal to)***
 * \!\=  ***(not equal to)***
 
+Here are some examples using and **if/else** statement in Python:
+
+```python
+n = int(input("Enter a number: "))
+
+if n % 2 == 0:
+    print("The number is even.")
+else:
+    print("The number if odd.")
+```
+
+If there are more than two options, then the **if/elif/else** could be used,
+
+```python
+mark = int(input("Enter your current mark: "))
+
+if mark >= 80:
+    print("A")
+elif mark >= 70:
+    print("B")
+elif mark >= 60:
+    print("C")
+elif mark >= 50:
+    print("D")
+else:
+    print("You are not meeting course expectations.")
+```
+
+In both examples above, only one of the available options will be acted upon in an **if/elif/else** block of code.  You can have as many **elif's** as you need ***(including none)***.  You should at least have an **if** and **else** if there are only two options, but even the **else** can be omitted.
 
 ## Boolean Values & Logical Operators
 
