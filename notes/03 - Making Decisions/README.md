@@ -41,7 +41,7 @@ else:
     print("You are not meeting course expectations.")
 ```
 
-In both examples above, only one of the available options will be acted upon in an **if/elif/else** block of code.  You can have as many **elif's** as you need ***(including none)***.  You should at least have an **if** and **else** if there are only two options, but even the **else** can be omitted.
+In both examples above, only one of the available options will be acted upon in an **if/elif/else** block of code.  You can have as many **elif's** as you need ***(including none)*** .  You should at least have an **if** and **else** if there are only two options, but even the **else** can be omitted.
 
 ## Boolean Values & Logical Operators
 
