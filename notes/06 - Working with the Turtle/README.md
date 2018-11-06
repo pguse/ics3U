@@ -2,7 +2,7 @@
 
 A computer program is just a series of **instructions** given to a computer to perform.  Here is an example of a program in Python that uses the turtle module.
 
-```
+```python
 import turtle
 
 # Creating a turtle object as defined in the turtle module imported above
@@ -32,7 +32,26 @@ def square():
 square()
 ```
 
-Notes:
+The act of creating a function follows an important guiding principle in programming, **Don't Repeat Yourself**.  A function enables you to reuse code by assigning a name to it, instead of re-typing all the lines the next time you need to use it.
+
+In our **square()** function above, you can see that we have a repetition of code happening within the function.  The lines
+
+```python
+tina.forward(100)
+tina.right(90)
+```
+occur four times.  A better version of the square function would use a **for-loop** as follows:
+
+```python
+def square():
+    for i in range(4):
+        tina.forward(100)
+        tina.right(90)
+```
+
+Notice that all lines contained within a **function** must be ***indented*** in Python, as they must be when they are within a **for-loop**.
+
+## Notes:
 
 * To use the turtle module it must first be imported as done on the first line using the **import** command.
 * All lines beginning with **\#** are comments.  _These are not read by the Python interpreter._
