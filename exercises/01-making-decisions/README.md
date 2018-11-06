@@ -1,7 +1,7 @@
 # Making Decisions
 
 ## Exercises:
-Using **Visual Studio Code**, complete the following programs and submit them below.
+Using **Visual Studio Code**, complete the following programs.
 
 ## 01-0: Is it Odd?
 Create a file called **isOdd.py**.  Create a program with the following specifications: **Input:**  An integer, **Output:** print "YES" if it's odd and print "NO" otherwise.
