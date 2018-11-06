@@ -51,6 +51,20 @@ def square():
 
 Notice that all lines contained within a **function** must be ***indented*** in Python, as they must be when they are within a **for-loop**.
 
+## Using Parameters with Functions
+
+You can provide input to a function that enables it to be more flexible.  For example, providing the **parameter** s to the **square()** function enables you to modify the side length of the drawn square.  For example, the following code will draw a square of side length 50.
+
+```python
+def square(s):
+    for i in range(4):
+        tina.forward(s)
+        tina.right(90)
+
+square(50)
+```
+More than one parameter can be provided to functions by separating them with commas.
+
 ## Notes:
 
 * To use the turtle module it must first be imported as done on the first line using the **import** command.
