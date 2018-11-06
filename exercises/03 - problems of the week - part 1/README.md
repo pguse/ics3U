@@ -1,4 +1,4 @@
-# Problems of the Week #1
+# Problems of the Week - Part 1
 
 ## Exercises:
 
