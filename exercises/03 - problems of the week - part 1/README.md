@@ -1,5 +1,7 @@
 # Problems of the Week #1
 
+## Exercises:
+
 Using Visual Studio Code, create two programs:  coins.py and guessing.py , according to the specifications given below.
 
 ## 03-1:  Coins
