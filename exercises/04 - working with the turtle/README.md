@@ -49,7 +49,7 @@ for i in range(3):
     turtle.backward(150)
     turtle.right(90)
     turtle.forward(50)
-    turtle.left(90
+    turtle.left(90)
 ```
 
 will draw a ***3 x 3 grid of squares*** each with ***side length 50*** .
