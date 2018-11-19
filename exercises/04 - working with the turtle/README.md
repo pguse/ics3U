@@ -27,6 +27,32 @@ should draw a ***pentagon*** with side lengths of 50 pixels.
 
 ![](grid.PNG)
 
+### Important Note:
+
+The purpose of these exercises is to use functions that perform one task to help you perform another task.
+
+For example, once you have a function called **square(s)**, it can be used to draw a ***row of 3 squares*** each of ***side length 50*** as follows
+
+```python3
+for i in range(3):
+    square(50)
+    turtle.forward(50)
+```
+
+You need to create a function called **row(s,n)** that will draw a ***row of n squares*** each of ***side length s***.  The code inside the function will look similar to the code above.
+
+Now you can use your **row(s,n)** function to create a ***grid of n rows*** .  For example,
+
+```python3
+for i in range(3):
+    row(50,3)
+    turtle.backward(150)
+```
+
+will draw a ***3 x 3 grid of squares*** each with ***side length 50*** .
+
+You need to create a function called **grid(s,n)** that will draw a ***grid of n x n squares*** each of ***side length s*** .
+
 ## 04-4:  Stairs
 
 (i) Use your **row(s, n)** function to define a function called **stairs(s, n)** that draws a set of stairs made of squares of side length s with a base n squares wide.  (ii) Use your **stairs(s, n)** function to draw a set of stairs made of squares of side length 50 with a base 4 squares wide.
