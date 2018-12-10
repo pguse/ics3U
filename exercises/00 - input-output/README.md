@@ -15,6 +15,7 @@ Create a file called **swap.py**.  The user should enter a **two-digit** number 
 
 ## 00-3: Day of the Week
 Create a file called **dayWeek.py**.  Let's count the days of the week as follows: 0 - Sunday, 1 - Monday, 2 - Tuesday, ..., 6 - Saturday. **Given** an integer **K** in the range 1 to 365, **output** the **number** of the **day of the week** for the K-th day of the year provided that this year's January 1 is Monday ***(which it is for 2018)*** .  Think about how you will determine (test) if your program is working.  As a comment in your program, describe what you did to test that your program functions correctly.
+
 ---
 
 ***Reference:***  http://snakify.org
