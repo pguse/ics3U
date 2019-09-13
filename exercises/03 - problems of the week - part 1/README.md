@@ -34,7 +34,7 @@ Correct!
 
 See the ***starter code*** given in the file **guessStart.py** that contains code that will generate a random number.
 
-## 03-3: Vampire Numbers (OPTIONAL)
+## 03-3: Vampire Numbers
 
 
 What is a Vampire Number?
