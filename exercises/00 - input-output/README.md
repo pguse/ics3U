@@ -34,12 +34,12 @@ Create a file called **dayWeek.py**.  Let's count the days of the week as follow
 
 ```
 Number:  1
-Swapped Digits:  2
+Day of the Week:  2
 ```
 
 ```
 Number:  145
-Swapped Digits:  6
+Day of the Week:  6
 ```
 
 ---
