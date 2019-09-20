@@ -102,7 +102,7 @@ else:
   print("Neither one of the values is odd.")
 ```
 
-or more concisely,
+or to be more concise we could use the **or** logical operator,
 
 ```python
 if m % 2 != 0 or n % 2 != 0:
