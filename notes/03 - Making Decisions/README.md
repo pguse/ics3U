@@ -84,3 +84,38 @@ produces
 True
 True
 ```
+
+## Using Logical Operators
+
+If you want to test two related conditions in an if/elif statement you could use one of the logical operators **and** or **or**.
+
+For example, let's say we want to determine if **at least one** of two integers is odd.  There are two ways we could write the program,
+
+```python
+m = 5
+n = 8
+if m % 2 != 0:
+  print("Odd")
+elif n % 2 != 0:
+  print("Odd")
+else:
+  print("Neither one of the values is odd.")
+```
+
+or more concisely,
+
+```python
+if m % 2 != 0 or n % 2 != 0:
+  print("Odd")
+else:
+  print"Neither one of the values is odd.")
+```
+
+If we wanted to determine if both integers are odd, we could use the **and** logical operator,
+
+```python
+if m % 2 != 0 and n % 2 != 0:
+  print("Both Odd")
+else:
+  print"One of the numbers is even.")
+```
