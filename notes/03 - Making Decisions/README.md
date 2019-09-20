@@ -111,7 +111,7 @@ else:
   print"Neither one of the values is odd.")
 ```
 
-If we wanted to determine if both integers are odd, we could use the **and** logical operator,
+If we wanted to determine if **both integers** are odd, we could use the **and** logical operator,
 
 ```python
 if m % 2 != 0 and n % 2 != 0:
