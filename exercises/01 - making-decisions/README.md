@@ -18,6 +18,10 @@ Create a file called **daysInMonth.py**.  Create a program with the following sp
 ## 01-4: Solve for x
 Create a file called **linearEquation.py**.  Create a program that solves a linear equation ax = b, in integers, with the following specifications:  **Input:**  two integers a and b (a may be zero), **Output:**  print a single integer root (solution) if it exists and print "no solution" or "many solutions" otherwise.
 
+## 01-5: Rook Move
+
+Create a file called **rookMove.py**. Chess rook moves horizontally or vertically. Given two different cells of the chessboard, determine whether a rook can go from the first cell to the second in one move.  The program receives the **input** of four numbers from 1 to 8, each specifying the column and row number, first two - for the first cell, and then the last two - for the second cell. The program should output YES if a rook can go from the first cell to the second in one move, or NO otherwise.
+
 ---
 
 ***Reference:*** http://snakify.org
