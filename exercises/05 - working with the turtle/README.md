@@ -19,13 +19,13 @@ should draw a ***pentagon*** with side lengths of 50 pixels.
 
 (i) Use your **square(s)** function to define a function (using the keyword def) called **row(s, n)** that draws a row of n squares of side length s.  (ii) Use your **row(s, n)** function to draw a row of 3 squares of side length 50.
 
-![](https://github.com/pguse/ics3u/blob/master/exercises/05%20-%20working%20with%20the%20turtle/row.png)
+![](row.png)
 
 ## 04-3:  Grid 
 
 (i) Use your **row(s, n)** function to define a function called **grid(s, n)** that draws a grid of n x n squares of side length s.  (ii) Use your **grid(s, n)** function to draw a 3 x 3 grid of squares of side length 50..
 
-![](grid.PNG)
+![](grid.png)
 
 ### Important Note:
 
@@ -60,4 +60,4 @@ You need to create a function called **grid(s,n)** that will draw a ***grid of n
 
 (i) Use your **row(s, n)** function to define a function called **stairs(s, n)** that draws a set of stairs made of squares of side length s with a base n squares wide.  (ii) Use your **stairs(s, n)** function to draw a set of stairs made of squares of side length 50 with a base 4 squares wide.
 
-![](stairs.PNG)
+![](stairs.png)
