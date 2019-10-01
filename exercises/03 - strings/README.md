@@ -17,8 +17,22 @@ Create a file called **slices.py**.  Write a program with the following specific
 * In the fifth line, print all the characters of this string with even indices (remember indexing starts at 0, so the characters are displayed starting with the first).
 * In the sixth line, print all the characters of this string with odd indices (i.e. starting with the second character in the string).
 * In the seventh line, print all the characters of the string in reverse order.
-* In the eighth line, print every second character of the string in reverse order, starting from the last one.
+* In the eighth line, print every second character of the string in reverse order, starting with the last one.
 * In the ninth line, print the length of the given string.
+
+### For Example:
+```
+Enter a string:  Albert College
+b
+g
+Alber
+Albert Colle
+Abr olg
+letClee
+egelloC treblA
+eelCtel
+14
+```
 
 ## 03-1: Number of Words
 Create a file called **numberOfWords.py**.  Write a program with the following specifications:
@@ -31,6 +45,12 @@ Create a file called **numberOfWords.py**.  Write a program with the following s
 
 * The number of words the given string has. **Note:**  To solve the problem, use the method **count**.
 
+### For Example:
+```
+Enter a string:  The quick brown fox jumps over the lazy dog
+Number of Words: 9
+```
+
 ## 03-2: Two Halves
 Create a file called **twoHalves.py**.  Write a program with the following specifications:
 
@@ -41,6 +61,17 @@ Create a file called **twoHalves.py**.  Write a program with the following speci
 ### Output
 * Cut it into two "equal" parts ***(If the length of the string is odd, place the center character in the first string, so that the first string contains one more characther than the second)***. Now print a new string on a single row with the first and second halfs interchanged ***(second half first and the first half second)***.  Don't use the statement **if** in this task.
 
+### For Example:
+```
+Enter a string:  Antelope
+Two halves reversed: lopeAnte
+```
+
+```
+Enter a string:  hello
+Two halves reversed: lohel
+```
+
 ## 03-3: Replace 1
 Create a file called **replaceOne.py**.  Write a program with the following specifications:
 
@@ -49,6 +80,12 @@ Create a file called **replaceOne.py**.  Write a program with the following spec
 
 ### Output
 * A string with all the number 1's by the word one.
+
+### For Example:
+```
+Enter a string containing 1's:  1 thousand 1 hundred and twenty 1
+Output:  one thousand one hundred and twenty one
+```
 
 ---
 ***Reference:*** http://snakify.org
