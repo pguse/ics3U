@@ -19,7 +19,7 @@ should draw a ***pentagon*** with side lengths of 50 pixels.
 
 (i) Use your **square(s)** function to define a function (using the keyword def) called **row(s, n)** that draws a row of n squares of side length s.  (ii) Use your **row(s, n)** function to draw a row of 3 squares of side length 50.
 
-![](row.PNG)
+![](https://github.com/pguse/ics3u/blob/master/exercises/05%20-%20working%20with%20the%20turtle/row.png)
 
 ## 04-3:  Grid 
 
