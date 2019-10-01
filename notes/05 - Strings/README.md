@@ -210,3 +210,46 @@ ekc
 ```
 
 The slice of the string consists of the characters from index 5 to 2 \(not including 2\).
+
+## String Methods
+
+To count the number of occurrences of a character or substring within a string, you can use the **count** method.
+
+For example:
+
+```python
+school = "Albert College"
+print(school.count('e')
+```
+
+produces the output
+
+```
+3
+```
+
+The method **count** returns an integer value that can be output or saved to a variable.  What do you think we could count if we wanted to determine the number of words in a string?
+
+Sometimes we want to replace a character or a substring within a string.  To do so, we can use the **replace** method.
+
+For example:
+
+```python
+age = "I am 49 years old."
+print(age.replace("old", "young")
+```
+
+produces the output
+
+```
+I am 49 years young.
+```
+
+If we wanted to save the new string and then output it, we could do so like this,
+
+```python
+new = age.replace("old", "young")
+print(new)
+```
+
+If you want to find out what other methods can act on strings (such as upper, lower, etc.) you can find them [here](https://docs.python.org/3/library/stdtypes.html#string-methods), or just search for "Python 3 String Methods" with your favourite browser.
