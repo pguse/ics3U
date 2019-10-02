@@ -228,9 +228,25 @@ produces the output
 3
 ```
 
-The method **count** returns an integer value that can be output or saved to a variable.  What do you think we could count if we wanted to determine the number of words in a string?
+The method **count** returns an integer value that can be output or saved to a variable.  
 
-Sometimes we want to replace a character or a substring within a string.  To do so, we can use the **replace** method.
+For example:
+
+```python
+animal = "massasauga rattlesnake"
+numberOfA = animal.count('a')
+print(numberOfA)
+```
+
+produces the output
+
+```
+6
+```
+
+What do you think we could count if we wanted to determine the number of words in a string?
+
+Sometimes we want to **replace** a character or a substring within a string.  To do so, we can use the **replace** method.
 
 For example:
 
@@ -248,8 +264,8 @@ I am 49 years young.
 If we wanted to save the new string and then output it, we could do so like this,
 
 ```python
-new = age.replace("old", "young")
-print(new)
+newString = age.replace("old", "young")
+print(newString)
 ```
 
-If you want to find out what other methods can act on strings (such as upper, lower, etc.) you can find them [here](https://docs.python.org/3/library/stdtypes.html#string-methods), or just search for "Python 3 String Methods" with your favourite browser.
+If you want to find out what other methods can act on strings (such as upper, lower, capitalize, etc.) you can find them [here](https://docs.python.org/3/library/stdtypes.html#string-methods), or just search for "Python 3 String Methods" with your favourite browser.
