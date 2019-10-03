@@ -6,8 +6,8 @@ This type of loop is useful when you know how many times to repeat your instruct
 
 ```python
 for i in range(3):
-    print “Hello everyone!”
-print “Loop finished.”
+    print("Hello everyone!")
+print("Loop finished.")
 ```
 
 produces the output:
@@ -23,7 +23,7 @@ The function **range**\(3\) causes the loop to repeat 3 times. Changing it to **
 
 ```python
 for i in range(3):
-    print str(i) +“. Hello everyone!”
+    print(str(i) + ". Hello everyone!")
 ```
 
 produces the output:
@@ -38,7 +38,7 @@ The **range**\(3\) function can be modified in the following ways:
 
 ```python
 for i in range(1,4):
-    print str(i) +“. Hello everyone!”
+    print(str(i) + ". Hello everyone!")
 ```
 
 produces the output:
@@ -53,7 +53,7 @@ Notice how the variable **i** now starts at a value of 1 but only goes up to the
 
 ```python
 for i in range(1,7,2):
-    print str(i) +“. Hello everyone!”
+    print(str(i) + ". Hello everyone!")
 ```
 
 produces the output:
@@ -68,7 +68,7 @@ In this case, the variable **i** takes on values in steps of 2. We can also coun
 
 ```python
 for i in range(4,1,-1):
-    print str(i) +“. Hello everyone!”
+    print(str(i) + ". Hello everyone!")
 ```
 
 produces the output:
@@ -94,7 +94,7 @@ N = 5
 s = 0
 for i in range(1, N+1):
     s = s + i
-print s
+print(s)
 ```
 
 The result \(15\) that is printed is the sum of all integers between 1 and 5.  Here is a table that summarizes how each variable changes values are the loop iterates.
@@ -115,7 +115,7 @@ The assignment statement **s = s + i** is the key line and most importantly it i
 The **for-loop** can be used without the **range**\(\) function in a couple ways. It can be used to pass through the characters in a string as follows:
 
 ```python
-name =“Ada”
+name = "Ada"
 for ch in name:
     print( ch )
 ```
@@ -131,9 +131,9 @@ a
 It can also be used to pass through the items in a **list** as follows:
 
 ```python
-names = [“Ada”, “Python”, “Pyret”]
+names = ["Ada", "Python", "Pyret"]
 for language in names:
-    print language
+    print(language)
 ```
 
 produces the output:
