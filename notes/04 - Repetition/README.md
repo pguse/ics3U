@@ -1,6 +1,6 @@
 # Repetition
 
-## The for-loop:
+## The for-loop
 
 This type of loop is useful when you know how many times to repeat your instructions. For example.
 
@@ -85,7 +85,7 @@ Again, the variable **i** does not take on the minimum value of 1, but only goes
 
 An accumulator is a variable that is used in a loop to construct a value using an iterative process.  It could act like a counter using addition, or perform exponentiation through repeated multiplication, or built a string character by character.  Here are some examples of accumulators in action.
 
-## The Sum of all Integers
+### The Sum of all Integers
 
 The act of adding consecutive integers e.g. 0 + 1 + 2 + 3 + 4 + 5 + ... can be thought of as an iterative process.  In each step you are adding ... the only thing that changes is the number being added.  In Python, this can be done using a loop, as follows:
 
@@ -144,7 +144,7 @@ Python
 Pyret
 ```
 
-## The while-loop:
+## The while-loop
 
 The **while-loop** is used when you don't know the exact number of times that a loop needs to repeat.  It only repeats as long as a given condition is true.  Here is an example, where the loop will end only when the user enters a negative value.
 
