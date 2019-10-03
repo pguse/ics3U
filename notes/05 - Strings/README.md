@@ -2,8 +2,8 @@
 
 **Strings** consist of a **sequence** of **characters**. Each character is accessed using an **index** value. For example,
 
-```
-word = “chicken”
+```python
+word = "chicken"
 print( word[0] )
 print( word[4] )
 ```
@@ -29,7 +29,7 @@ The function **len\(\)** calculates the length of the string \(how many characte
 
 **len\( word \)** has a value of **7**. For example,
 
-```
+```python
 print( len( word ) )
 ```
 
@@ -43,9 +43,9 @@ print( len( word ) )
 
 There are two ways a loop can be used with strings in Python.
 
-```
+```python
 for ch in word:
-   print( ch, end = “ “)
+   print( ch, end = " ")
 ```
 
 **produces the output …**
@@ -56,9 +56,9 @@ c h i c k e n
 
 where the variable **ch** stores each character of the string during each iteration of the loop.
 
-```
+```python
 for i in range(len(word) ):
-    print( word[i] , end = “ “)
+    print( word[i] , end = " ")
 ```
 
 **produces the output …**
@@ -73,11 +73,11 @@ where the variable **i** stores the index values 0, 1, 2, 3, 4, 5, 6 during each
 
 You can construct a string by **concatenation**\(adding\) using a **for-loop** and an assignment statement. For example,
 
-```
-word = “”
+```python
+word = ""
 # called an empty string 
 for i in range(3):
-    letter =input(“Enter a letter: “)
+    letter =input("Enter a letter: ")
     word = word + letter
 print( word )
 ```
@@ -93,12 +93,12 @@ abc
 
 This type of program is necessary in the game called **Hangman** \( a.k.a. Secret Word\), so that the program can store each version of the secret word being guessed. For example,
 
-```
-secretWord = “chicken”
-oldWord = “_______” 
+```python
+secretWord = "chicken"
+oldWord = "_______"
 for j in range(2):
-    letter =input( “Guess a letter: “)
-    newWord = “”
+    letter =input("Guess a letter: ")
+    newWord = ""
     for i in range(len(secretWord) ):
         if letter == secretWord[i]:
             newWord = newWord + letter
@@ -106,7 +106,7 @@ for j in range(2):
             newWord = newWord + oldWord[i]
     oldWord = newWord
     for ch in newWord:
-        print( ch, end = “ “)
+        print( ch, end = " ")
         print()
 ```
 
@@ -121,13 +121,13 @@ c _ _ c _ _ n
 
 ## **Slices of a String**
 
-```
-word = “chicken”
+```python
+word = "chicken"
 ```
 
 Sometimes you may want to select portions of a string called a **slice**. For example:
 
-```
+```python
 print( word[0:3] )
 ```
 
@@ -139,7 +139,7 @@ chi
 
 The slice of the string consists of the characters from index 0 to 3 \(not including 3\).
 
-```
+```python
 print( word[:3] )
 ```
 
@@ -151,7 +151,7 @@ chi
 
 If the first index is missing, it is assumed the slice begins at the first character in the string. Similarly,
 
-```
+```python
 print( word[3:6] )
 ```
 
@@ -163,7 +163,7 @@ cke
 
 The slice of the string consists of the characters from index 3 to 6 \(not including 6\). Whereas,
 
-```
+```python
 print( word[3:] )
 ```
 
@@ -175,7 +175,7 @@ cken
 
 If the second index is missing, it is assumed the slice ends after the last character in the string. Adding a third number, allows you to step through the string with any size step. For example,
 
-```
+```python
 print( word[::2] )
 ```
 
@@ -187,7 +187,7 @@ cikn
 
 The slice starts at the beginning of the string and passes through in steps of 2 to just after the end of the string. This can be used to ** easily reverse a string ** as follows,
 
-```
+```python
 print( word[::-1] )
 ```
 
@@ -199,7 +199,7 @@ nekcihc
 
 In this case the first number is assumed to be the final position in the string, and the second just before the first position. Similarly,
 
-```
+```python
 print( word[5:2:-1] )
 ```
 
