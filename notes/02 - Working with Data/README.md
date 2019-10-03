@@ -28,15 +28,15 @@ Strings are sequences of letters and numbers, or in other words, chunks of text.
 
 * Find the length of String \(\# of characters including spaces\) using the len\(\) function:  Example: **len**\(lastName\) has a value of 4
 
-```
+```python
 >>> lastName = "Guse"
->>> print lastName
+>>> print(lastName)
 Guse
->>> print lastName[0]
+>>> print(lastName[0])
 G
->>> print lastName[3]
+>>> print(lastName[3])
 e
->>> print len(lastName)
+>>> print(len(lastName))
 4
 ```
 
@@ -44,64 +44,64 @@ e
 
 The values **True** and **False** are called Boolean values. They often result as the value of a conditional expression, even if you don't explicitly see them. See them in action by looking at the following examples in the interactive python shell
 
-```
->>> print 5 < 10
+```python
+>>> print(5 < 10)
 False
 >>> x = 15
->>> print x == 15
+>>> print(x == 15)
 True
->>> print 5 < 10
+>>> print(5 < 10)
 False
 >>> x = 15
->>> print x == 15
+>>> print(x == 15)
 True
 ```
 
 They can be used in conditional statements such as **if/elif/else**.
 
-```
+```python
 paid = True
 if paid:
-    print "Thank you for paying your bill."
+    print("Thank you for paying your bill.")
 else:
-    print "Please pay what you owe."
+    print("Please pay what you owe.")
 ```
 
 ## Variables
 
 Variables have a type determined by their assignment statement.  For example, in the code
 
-```
+```python
 score = 4
 ```
 
 the variable **score** is an integer, because it has been assigned an integer value.  In this code,
 
-```
+```python
 mark = 87.4
 ```
 
 the variable **mark** is a float.  Sometimes it is not so obvious.  In the following calculation,
 
-```
+```python
 total = score * 2 + 5
 ```
 
 the variable **total** is an integer because only integer values have been used in the calculation.  However, in this code,
 
-```
+```python
 average = (5 + 6 + 4) / 3
 ```
 
 the variable **average** is a float because of the division operator_ \(division always produces a float\)_, even though all values in the calculation are integers.  Whereas, in the code
 
-```
+```python
 hundreds = 563 // 100
 ```
 
 the variable **hundreds** is an integer because // is the integer division operator.  If you are not sure about the type of a variable you can use the type\(\) function.  For example,
 
-```
+```python
 >> type(average)
 <class 'float'>
 >> type(mark)
