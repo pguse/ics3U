@@ -101,12 +101,12 @@ The result \(15\) that is printed is the sum of all integers between 1 and 5.  H
 
 | N | i | s |
 | :---: | :---: | :---: |
-| 10 | - | 0 |
-| 10 | 1 | **1** |
-| 10 | **2** | **3** |
-| 10 | 3 | 6 |
-| 10 | 4 | 10 |
-| 10 | 5 | 15 |
+| 5 | - | 0 |
+| 5 | 1 | **1** |
+| 5 | **2** | **3** |
+| 5 | 3 | 6 |
+| 5 | 4 | 10 |
+| 5 | 5 | 15 |
 
 The assignment statement **s = s + i** is the key line and most importantly it is read from **right-to-left**.  The current values of **s** and **i** are added together and the result stored back in the variable/identifier called **s**.  In the table above one of these calculations is shown using the bolded values, where **i** and **sum** have the values 2 and 1.  They are added to give the new value of **s**, which is 3.
 
