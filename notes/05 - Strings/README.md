@@ -219,7 +219,7 @@ For example:
 
 ```python
 school = "Albert College"
-print(school.count('e')
+print(school.count('e'))
 ```
 
 produces the output
