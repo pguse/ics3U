@@ -83,7 +83,7 @@ Again, the variable **i** does not take on the minimum value of 1, but only goes
 
 ## The for-loop - Using an Accumulator
 
-An accumulator is a variable that is used in a loop to construct a value using an iterative process.  It could act like a counter using addition, or perform exponentiation through repeated multiplication, or built a string character by character.  Here are some examples of accumulators in action.
+An accumulator is a variable that is used in a loop to construct a value using an iterative process.  It could act like a counter using addition, or perform exponentiation through repeated multiplication, or build a string character by character.  Here is an example of an accumulator in action.
 
 ### The Sum of all Integers
 
