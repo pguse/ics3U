@@ -80,7 +80,8 @@ import math
 
 greeting = "hello"
 length = len(greeting)                          # calculates the length of the string ... in this case 5
-print( greeting[0: math.ceil( length / 2 )] )
+firstHalf = greeting[0: math.ceil( length / 2 )]
+print( firstHalf )
 ```
 
 will produce the output
