@@ -79,7 +79,7 @@ In order to have the first string be one character longer in the case of an odd 
 import math
 
 greeting = "hello"
-length = len(greeting)  # calculates the length of the string ... in this case 5
+length = len(greeting)                          # calculates the length of the string ... in this case 5
 print( greeting[0: math.ceil( length / 2 )] )
 ```
 
@@ -88,7 +88,7 @@ will produce the output
 hel
 ```
 
-In this case, length / 2 has the 2.5.  The **math.ceil()** function take a floating-point value and rounds it up to the next highest integer.  So, **math.ceil(2.5)** has the value **3**.  Therefore, the expression **greeting[0: math.ceil( length / 2 )]** is equivalent to **greeting[0:3]**. As an aside, the **math.floor()** function rounds a floating-point value down to the next lowest integer.  So, **math.floor(2.5)** has the value **2**.
+In this case, length / 2 has the value 2.5.  The **math.ceil()** function take a floating-point value and rounds it up to the next highest integer.  So, **math.ceil(2.5)** has the value **3**.  Therefore, the expression **greeting[0: math.ceil( length / 2 )]** is equivalent to **greeting[0:3]**. As an aside, the **math.floor()** function rounds a floating-point value down to the next lowest integer.  So, **math.floor(2.5)** has the value **2**.
 
 ## 03-3: Replace 1
 Create a file called **replaceOne.py**.  Write a program with the following specifications:
