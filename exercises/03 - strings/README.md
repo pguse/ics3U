@@ -59,7 +59,7 @@ Create a file called **twoHalves.py**.  Write a program with the following speci
 * A string
 
 ### Output
-* Cut it into two "equal" parts ***(If the length of the string is odd, place the center character in the first string, so that the first string contains one more characther than the second)***. Now print a new string on a single row with the first and second halfs interchanged ***(second half first and the first half second)***.  Don't use the statement **if** in this task.
+* Cut it into two "equal" parts ***(If the length of the string is odd, place the center character in the first string, so that the first string contains one more character than the second)***. Now print a new string on a single row with the first and second halfs interchanged ***(second half first and the first half second)***.  Don't use the statement **if** in this task.
 
 ### For Example:
 ```
@@ -71,6 +71,24 @@ Two halves reversed: lopeAnte
 Enter a string:  hello
 Two halves reversed: lohel
 ```
+
+### Note:
+In order to have the first string be one character longer in the case of an odd length string we need to use the **math** module.  Specifically, we need to use the **math.ceil()** function.  For example, the following code
+
+```python
+import math
+
+greeting = "hello"
+length = len(greeting)  # calculates the length of the string ... in this case 5
+print( greeting[0: math.ceil( length / 2 )] )
+```
+
+will produce the output
+```
+hel
+```
+
+In this case, length / 2 has the 2.5.  The **math.ceil()** function take a floating-point value and rounds it up to the next highest integer.  So, **math.ceil(2.5)** has the value **3**.  Therefore, the expression **greeting[0: math.ceil( length / 2 )]** is equivalent to **greeting[0:3]**. As an aside, the **math.floor()** function rounds a floating-point value down to the next lowest integer.  So, **math.floor(2.5)** has the value **2**.
 
 ## 03-3: Replace 1
 Create a file called **replaceOne.py**.  Write a program with the following specifications:
