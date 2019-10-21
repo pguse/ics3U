@@ -81,6 +81,23 @@ produces the output:
 
 Again, the variable **i** does not take on the minimum value of 1, but only goes down to it.
 
+## Output on the Same Line
+
+You can output values on the same line by modifying the default behaviour of the print() function.  We do this in Python by using a parameter called ***end***.  Here is an example,
+
+```python
+for i in range(5):
+    print(i, end = " ")
+```
+
+This program will produce the following output
+
+```
+0 1 2 3 4
+```
+
+In this case, a space is created after the value of i instead of the default behaviour of going to the next line.
+
 ## The for-loop - Using an Accumulator
 
 An accumulator is a variable that is used in a loop to construct a value using an iterative process.  It could act like a counter using addition, or perform exponentiation through repeated multiplication, or build a string character by character.  Here is an example of an accumulator in action.
