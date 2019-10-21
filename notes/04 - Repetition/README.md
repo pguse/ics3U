@@ -83,7 +83,7 @@ Again, the variable **i** does not take on the minimum value of 1, but only goes
 
 ## Output on the Same Line
 
-You can output values on the same line by modifying the default behaviour of the print() function.  We do this in Python by using a parameter called ***end***.  Here is an example,
+You can output values on the same line by modifying the default behaviour of the ***print()*** function.  We do this in Python by using a parameter called ***end***.  Here is an example,
 
 ```python
 for i in range(5):
@@ -96,7 +96,7 @@ This program will produce the following output
 0 1 2 3 4
 ```
 
-In this case, a space is created after the value of i instead of the default behaviour of going to the next line.
+In this case, a space is created after the value of ***i*** instead of the default behaviour of going to the next line.
 
 ## The for-loop - Using an Accumulator
 
