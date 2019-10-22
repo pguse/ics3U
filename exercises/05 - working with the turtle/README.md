@@ -13,7 +13,7 @@ polygon(50,5)
 
 should draw a ***pentagon*** with side lengths of 50 pixels.
 
-**Note:**  To figure out how this function works, create two other functions:  **triangle(s)** and **pentagon(s)**, that will draw a triangle and pentagon with side lengths **s**.  Use what you learn by creating these functions to create the **polygon(s,n)** function.
+**Note:**  To figure out how this function works, create two other functions:  **triangle(s)** and **pentagon(s)**, that will draw a triangle and pentagon with side lengths **s**.  Use what you learn by creating these functions to create the **polygon(s,n)** function.  There is a connection between the **number of sides** in the polygon and the **turning angle** of the turtle.  You must use this equation/relation to within your **polygon(s,n)** function.
 
 ## 04-2:  Row
 
