@@ -5,7 +5,7 @@
 Using **Visual Studio Code**, create a file called **turtleIntro.py** and complete the following challenges.
 
 ## 04-0:  Polygon
-Create a function called polygon(s,n) that will draw any polygon with n sides, where the side length is s.
+Create a function called **polygon(s,n)** that will draw any polygon with **n** sides, where the side length is **s**.
 
 So,
 
