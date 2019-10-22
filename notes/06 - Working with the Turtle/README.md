@@ -5,6 +5,8 @@ A computer program is just a series of **instructions** given to a computer to p
 ```python
 import turtle
 
+# Initialize the turtle object
+
 # Creating a turtle object as defined in the turtle module imported above
 
 tina = turtle.Turtle()
@@ -15,6 +17,8 @@ tina = turtle.Turtle()
 tina.shape('turtle')
 tina.width(2)
 tina.color('blue')
+
+# Create the turtle functions
 
 # Definition of the square() function
 # Instructs the turtle how to draw a square
