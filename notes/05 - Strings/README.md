@@ -39,86 +39,6 @@ print( len( word ) )
 7
 ```
 
-## Using a for-loop with Strings
-
-There are two ways a loop can be used with strings in Python.
-
-```python
-for ch in word:
-   print( ch, end = " ")
-```
-
-**produces the output …**
-
-```
-c h i c k e n
-```
-
-where the variable **ch** stores each character of the string during each iteration of the loop.
-
-```python
-for i in range(len(word) ):
-    print( word[i] , end = " ")
-```
-
-**produces the output …**
-
-```
-c h i c k e n
-```
-
-where the variable **i** stores the index values 0, 1, 2, 3, 4, 5, 6 during each iteration of the loop.
-
-## **Constructing a String Character-by-Character**
-
-You can construct a string by **concatenation**\(adding\) using a **for-loop** and an assignment statement. For example,
-
-```python
-word = ""
-# called an empty string 
-for i in range(3):
-    letter =input("Enter a letter: ")
-    word = word + letter
-print( word )
-```
-
-This python program could be run as follows:
-
-```
-Enter a letter: a
-Enter a letter: b
-Enter a letter: c
-abc
-```
-
-This type of program is necessary in the game called **Hangman** \( a.k.a. Secret Word\), so that the program can store each version of the secret word being guessed. For example,
-
-```python
-secretWord = "chicken"
-oldWord = "_______"
-for j in range(2):
-    letter =input("Guess a letter: ")
-    newWord = ""
-    for i in range(len(secretWord) ):
-        if letter == secretWord[i]:
-            newWord = newWord + letter
-        else:
-            newWord = newWord + oldWord[i]
-    oldWord = newWord
-    for ch in newWord:
-        print( ch, end = " ")
-        print()
-```
-
-This python program could be run as follows:
-
-```
-Guess a letter: c
-c _ _ c _ _ _
-Guess a letter: n
-c _ _ c _ _ n
-```
-
 ## **Slices of a String**
 
 ```python
@@ -269,3 +189,84 @@ print(newString)
 ```
 
 If you want to find out what other methods can act on strings (such as upper, lower, capitalize, etc.) you can find them [here](https://docs.python.org/3/library/stdtypes.html#string-methods), or just search for "Python 3 String Methods" with your favourite browser.
+
+
+## Using a for-loop with Strings
+
+There are two ways a loop can be used with strings in Python.
+
+```python
+for ch in word:
+   print( ch, end = " ")
+```
+
+**produces the output …**
+
+```
+c h i c k e n
+```
+
+where the variable **ch** stores each character of the string during each iteration of the loop.
+
+```python
+for i in range(len(word) ):
+    print( word[i] , end = " ")
+```
+
+**produces the output …**
+
+```
+c h i c k e n
+```
+
+where the variable **i** stores the index values 0, 1, 2, 3, 4, 5, 6 during each iteration of the loop.
+
+## **Constructing a String Character-by-Character**
+
+You can construct a string by **concatenation**\(adding\) using a **for-loop** and an assignment statement. For example,
+
+```python
+word = ""
+# called an empty string 
+for i in range(3):
+    letter =input("Enter a letter: ")
+    word = word + letter
+print( word )
+```
+
+This python program could be run as follows:
+
+```
+Enter a letter: a
+Enter a letter: b
+Enter a letter: c
+abc
+```
+
+This type of program is necessary in the game called **Hangman** \( a.k.a. Secret Word\), so that the program can store each version of the secret word being guessed. For example,
+
+```python
+secretWord = "chicken"
+oldWord = "_______"
+for j in range(2):
+    letter =input("Guess a letter: ")
+    newWord = ""
+    for i in range(len(secretWord) ):
+        if letter == secretWord[i]:
+            newWord = newWord + letter
+        else:
+            newWord = newWord + oldWord[i]
+    oldWord = newWord
+    for ch in newWord:
+        print( ch, end = " ")
+        print()
+```
+
+This python program could be run as follows:
+
+```
+Guess a letter: c
+c _ _ c _ _ _
+Guess a letter: n
+c _ _ c _ _ n
+```
