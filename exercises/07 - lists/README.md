@@ -10,18 +10,74 @@ Using **Visual Studio Code**, complete the following programs.
 Create a file called **evenElements.py**. Write a program with the following specifications:
 Given a list of numbers, find and print all elements that are an even number. In this case use a for-loop that iterates over the list, and not over its indices! That is, don't use range().
 
+### Example:
+
+```
+Given list:  a = [3, -1, 4, 10, -5, -6]
+
+Output:
+
+4 10 -6
+```
+
 ## 07-1: Greater than Previous
 Create a file called **greaterThanPrevious.py**. Write a program with the following specifications:
 Given a list of numbers, find and print all the elements that are greater than the previous element.
+
+### Example:
+
+```
+Given list:  a = [3, -1, 4, 10, -5, -6]
+
+Output:
+
+4 10
+```
 
 ## 07-2: Neighbours of the Same Sign
 Create a file called **neighboursSameSign.py**. Write a program with the following specifications:
 Given a list of numbers, find and print the first adjacent elements which have the same sign. If there is no such pair, leave the output blank.
 
+### Example:
+
+```
+Given list:  a = [3, -1, 4, 10, -5, -6]
+
+Output:
+
+4 10
+```
+
 ## 07-3: The Number of Distinct Elements
 Create a file called **numDistinctElements.py**. Write a program with the following specifications:
-Given a list of numbers with all of its elements sorted in ascending order, determine and print the quantity of distinct elements in it.
+Given a list of numbers with all of its elements ***sorted in ascending order***, determine and print the quantity of distinct elements in it.
+
+### Example:
+
+```
+Given list:  a = [-6, -5, -1, -1, 3, 4, 4, 10]
+
+Output:
+
+6
+```
 
 ## 07-4: Swap Neighbours
 Create a file called **swapNeighbours.py**. Write a program with the following specifications:
-Given a list of numbers, swap adjacent items in pairs (A[0] with A[1], A[2] with A[3], etc.). Print the resulting list. If a list has an odd number of elements, leave the last element in place.
+Given a list of numbers, swap adjacent items in pairs (A[0] with A[1], A[2] with A[3], etc.). Print the resulting list. If a list has an ***odd number of elements***, leave the last element in place.  Output the swapped list.
+
+### Example:
+
+```
+Given list:  a = [3, -1, 4, 10, -5, -6]
+
+Output:
+
+[-1, 3, 10, 4, -6, -5]
+
+Given list:  a = [3, -1, 4, 10, -5]
+
+Output:
+
+[-1, 3, 10, 4, -5]
+```
