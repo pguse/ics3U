@@ -34,6 +34,8 @@ def square():
   tina.right(90)
 
 square()
+
+turtle.mainloop()
 ```
 
 The act of creating a function follows an important guiding principle in programming, **Don't Repeat Yourself**.  A function enables you to reuse code by assigning a name to it, instead of re-typing all the lines the next time you need to use it.
