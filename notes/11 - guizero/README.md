@@ -6,3 +6,4 @@ guizero is a Python 3 library for creating simple GUIs. Full documentation for g
 
 Open up a new terminal in Visual Studio Code and install guizero using pip3.
 
+![](https://github.com/pguse/ics3u/blob/master/images/pipInstall.png)
