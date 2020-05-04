@@ -97,4 +97,75 @@ Run the program and type in a word from the given dictionary.  If you spell it c
 
 ## Step 6
 
-You have probably noticed that the formating of our application does not match the formatting of the example shown above.  We are going to correct that now.
+You have probably noticed that the formating of our application does not match the formatting of the example shown above.  We are going to correct that now.  Here is the final code.
+
+```python3
+from guizero import App, Text, TextBox, PushButton
+
+myGlossary = {
+    'algorithm': 'Step by step instructions to perform a task that a computer can understand.',
+    'bug': 'A piece of code that is causing a program to fail to run properly or at all.',
+    'binary number': 'A number represented in base 2.'
+    }
+
+bgcolor = (0,200,100)
+
+# create a key press function
+def click():
+    entered_text = input_box.value
+    output_box.clear()
+    output_box.value = myGlossary[entered_text]
+
+
+app = App(title="My Computer Science Glossary", layout="grid", bg = (225,225,225), height=350)
+
+# create a Text widget
+text1 = Text(app, text="Enter the word you want defining:\n", grid=[0,0], align="left")
+
+# create a TextBox widget
+input_box = TextBox(app, grid=[0,1], align="left", width=50)
+input_box.bg = bgcolor
+
+# create a PushButton widget
+button = PushButton(app, text="SUBMIT", command=click, grid=[0,2], align="left")
+
+# create another Text widget
+text2 = Text(app, text="\nDefinition:", grid=[0,3], align="left")
+
+# create a TextBox widget
+output_box = TextBox(app, grid=[0,4], align="left", multiline=True, width=60, height=10)
+output_box.bg = bgcolor
+
+app.display()
+```
+
+To more fully understand how the formatting is done, check out the following sections of the guizero documentation:
+
+* [Layouts](https://lawsie.github.io/guizero/layout/)
+* [Grid and Alignment](https://lawsie.github.io/guizero/layout/#grid-layout)
+* [Colours](https://lawsie.github.io/guizero/colors/)
+* [App](https://lawsie.github.io/guizero/app/)
+* [Text](https://lawsie.github.io/guizero/text/)
+* [TextBox](https://lawsie.github.io/guizero/textbox/)
+* [PushButton](https://lawsie.github.io/guizero/pushbutton/)
+
+## Step 7
+
+In this step we are going to learn a new concept in Python.  Up to this point, we have not attempted to handle errors in any of our programs.  Here we are going to handle errors using the **try:  except:** block.  Modify the click() function as follows,
+
+```python3
+# create a key press function
+def click():
+    entered_text = input_box.value
+    output_box.clear()
+    try:
+        definition = myGlossary[entered_text]
+    except:
+        definition = "There is no entry for this word"
+    output_box.value = definition
+```
+If an error occurs in the ```try:``` block, then the ```except:``` block executes.
+
+## Step 8
+
+Add 3 more definitions to the Python dictionary.  Run your code.  If everything seems to be working fine, submit your program.
