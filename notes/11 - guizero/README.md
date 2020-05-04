@@ -36,7 +36,7 @@ input_box = TextBox(app)
 button = PushButton(app, text="SUBMIT")
 ```
 
-This should add text, a text box, and a button to the application.  Run your application ... *(use python3 if you are on a Mac)*
+This should add text, a text box, and a push button to the application.  Run your application ... *(use python3 if you are on a Mac)*
 
 ```
 python myGlossary.py
@@ -63,7 +63,7 @@ Your window will now look like this.
 We will now add functionality to the PushButton.  By adding commands to widgets, the user can create changes in the GUI when they interact with the widget.  Add the following to the starter code where indicated,
 
 ```python3
-# create a key press function
+# create a button press function
 def click():
     entered_text = input_box.value
     output_box.clear()
@@ -75,7 +75,7 @@ Then, edit line 25 where the PushButton is created,
 ```python3
 button = PushButton(app, text="SUBMIT", command=click)
 ```
-Notice that in this line, we refer to the function defined above, but do not include the parentheses.
+Notice that in this line, we refer to the function defined above, but **do not include the parentheses**.
 
 Run the program.  Type something in the upper TextBox and press the SUBMIT PushButton.  You should see the text appear in the lower TextBox.
 
@@ -86,7 +86,7 @@ Look at the ```click()``` function.  Note that the upper TextBox is called ```in
 We are now going to modify the ```click()``` function so that it uses the dictionary given in the starter code.  Edit the code so that the function looks like this,
 
 ```python3
-# create a key press function
+# create a button press function
 def click():
     entered_text = input_box.value
     output_box.clear()
@@ -110,7 +110,7 @@ myGlossary = {
 
 bgcolor = (0,200,100)
 
-# create a key press function
+# create a button press function
 def click():
     entered_text = input_box.value
     output_box.clear()
@@ -154,7 +154,7 @@ To more fully understand how the formatting is done, check out the following sec
 In this step we are going to learn a new concept in Python.  Up to this point, we have not attempted to handle errors in any of our programs.  Here we are going to handle errors using the **try:  except:** block.  Modify the click() function as follows,
 
 ```python3
-# create a key press function
+# create a button press function
 def click():
     entered_text = input_box.value
     output_box.clear()
