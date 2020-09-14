@@ -2,14 +2,16 @@
 
 ## Types of Numbers
 
-We're going to look at two types of numbers that we many encounter this year using Python:  integer, and floating-point values.  Notice below that we can use the **_typeof()_** function to indicate the data type of the given values.
+We're going to look at two types of numbers that we many encounter this year using Python:  integer, and floating-point values.  Notice below that we can use the **_type()_** function to indicate the data type of the given values.
 
 ```python
-typeof(5)
+>>> type(5)
+<class 'int'>
 ```
 
 ```python
-typeof(3.0)
+>>> type(3.0)
+<class 'float'>
 ```
 
 ### Operations
@@ -41,6 +43,11 @@ Sometimes you only want to calculate the integer part of a division operation.  
 
 ##### Modulus _(Remainder)_
 The modulus or remainder operator calculates the remainder of a division operation.  So, **a % b** calculates the remainder of **a / b**.
+
+```python
+>>> 5 % 3
+1
+```
 
 ## Exercises
 
