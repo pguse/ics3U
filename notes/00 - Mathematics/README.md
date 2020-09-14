@@ -62,6 +62,8 @@ The modulus or remainder operator calculates the remainder of a division operati
 		a. What is your average time per mile in minutes and seconds?
 		b. What is your average speed in miles per hour?
     
-5. The **volume** of a **sphere** with a radius **r** is $$\frac{4}{3} \pi r^3$$.  What is the **volume** of a **sphere** with a radius of $radius ?
+5. The **volume** of a **sphere** with a radius **r** is 
+<img src="https://render.githubusercontent.com/render/math?math=\frac{4}{3} \pi r^3">.  What is the **volume** of a **sphere** with a radius of 5 ?
 
-6.  Given a right angled triangle with side lengths **a = $a** and **b = $b**, calculate the _hypotenuse_ **c**
+6.  Given a right angled triangle with side lengths **a = 5** and **b = 9**, calculate the _hypotenuse_ **c**
+
