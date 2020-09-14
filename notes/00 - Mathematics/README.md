@@ -1,19 +1,43 @@
-# Mathematics in Julia
+# Mathematics in Python
 
 ## Types of Numbers
 
-We're going to look at three types of numbers that we many encounter this year using Julia:  integer, floating-point, and rational values.  Notice below that we can use the **_typeof()_** function to indicate the data type of the given values.
+We're going to look at two types of numbers that we many encounter this year using Python:  integer, and floating-point values.  Notice below that we can use the **_typeof()_** function to indicate the data type of the given values.
 
-'''python
+```python
 typeof(5)
-'''
+```
+
+```python
+typeof(3.0)
+```
 
 ### Operations
 
 Look at how the results of addition and subtraction operations compare when using different types of numbers.
 
+```python
+>>> 7 - 10
+-3
+>>> 5.0 + 1.3
+6.3
+>>> 6.5 - 4
+2.5
+>>> 5 / 3
+1.6666666666666667
+>>> 2**3
+8
+>>> 7 - 10 + 5*2**3
+37
+```
+
 ##### Integer Division
 Sometimes you only want to calculate the integer part of a division operation.  You accomplish this by using the integer division operator **//**.
+
+```python
+>>> 5 // 3
+1
+```
 
 ##### Modulus _(Remainder)_
 The modulus or remainder operator calculates the remainder of a division operation.  So, **a % b** calculates the remainder of **a / b**.
