@@ -2,7 +2,7 @@
 
 ## Exercises:
 
-Using **Visual Studio Code**, create separate programs to solve the following problems.
+Using **Thonny**, create separate programs to solve the following problems.
 
 ## 00-0: Hello
 Create a file called **hi.py**.  The user should enter their **name**, and the program should output the greeting **Hi *name*!**. There should be a space between the words and an exclamation point at the end next to the name. 
