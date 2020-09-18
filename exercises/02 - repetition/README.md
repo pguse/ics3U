@@ -2,7 +2,7 @@
 
 ## Exercises:
 
-Using **Visual Studio Code**, complete the following programs.
+Using **Thonny**, complete the following programs.
 
 ## 02-0: Count to 10
 Create a file called **countToN.py**.  Create a program with the following specifications: **Input:**  A positive integer N, **Output:** print all the numbers from 1 to N, on a single horizontal line, with a single space between each pair of numbers.
