@@ -4,7 +4,7 @@ Unlike the functions created in the Turtle exercises, all of these functions hav
 
 ## Exercises:
 
-Using **Visual Studio Code**, create a file called ***functionsExercises.py*** .  Within this file,
+Using **Thonny**, create a file called ***functionsExercises.py*** .  Within this file,
 
 * create all the functions described below
 * use each function to perform a **calculation** and **output** the result
