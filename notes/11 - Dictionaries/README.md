@@ -1,4 +1,4 @@
-## Introduction to Dictionaries
+# Introduction to Dictionaries
 
 We have seen how to store information as an integer, a floating-point value, and a Boolean value. These data types store one value. The first two data types are used when we need to store numerical values and the last data type we typically see when decisions need to be made.
 
@@ -20,7 +20,7 @@ for i in range( len(courses) ):
 
 There is nothing really wrong with the program above, but the data involving the name of the course and the mark are stored in two different data structures (lists). This could cause problems if we need to add/remove a course or change the course/mark information. We need to remember to do this in two places. Instead we can store everything in a Python dictionary.
 
-### A Dictionary Example
+## A Dictionary Example
 
 Let's look at an example of a courses dictionary. Notice the use of the brackets { } for dictionaries instead of the brackets [ ] used for lists.
 
@@ -55,7 +55,7 @@ print( courses.values() )
 print( list( courses.values() ) )
 ```
 
-### Does a key already exist in a Dictionary?
+## Does a key already exist in a Dictionary?
 
 Sometimes we are not sure whether a particular **key** is found in our dictionary. We can check with the following code.
 
@@ -73,7 +73,7 @@ else:
     print("Course not found.")
 ```
 
-### Building a Dictionary from Scratch
+## Building a Dictionary from Scratch
 
 We can build dictionary, starting with an empty dictionary. For example,
 
@@ -89,7 +89,7 @@ english_german["four"] = "vier"
 print(english_german)
 ```
 
-### Application - Counting Letters
+## Application - Counting Letters
 
 Here is a program that counts letters and stores the frequency of each letter _(at the moment it only looks at the letter 'a')_ using a dictionary.
 
