@@ -10,7 +10,7 @@ Using Thonny, go to the **Tools** menu and choose **Manage Packages**.  Search f
 
 ## Step 2
 
-Download the [starter code](https://github.com/pguse/ics3u/blob/master/notes/11%20-%20guizero/myGlossary.py).
+Download the [starter code](https://github.com/pguse/ics3u-python/blob/master/notes/12%20-%20guizero/myGlossary.py).
 
 ## Step 3
 
