@@ -10,7 +10,7 @@ seconds = 13*60 + 13
 print(f"There are {seconds} seconds in 13 minutes and 13 seconds.")
 ```
 
-### Output
+#### Output
 ```There are 793 seconds in 13 minutes and 13 seconds.```
 
 
@@ -23,7 +23,7 @@ miles = 10 *(1 / 1.61)
 print(f"There are {miles:0.2f} miles in 10 kilometers.")
 ```
 
-### Output
+#### Output
 ```There are 6.21 miles in 10 kilometers.```
 
 
@@ -41,7 +41,7 @@ seconds = 1423 % 60
 print(f"In 1423 seconds there are {minutes} minutes and {seconds} seconds.")
 ```
 
-### Output
+#### Output
 ```In 1423 seconds there are 23 minutes and 43 seconds.```
 
 
@@ -77,7 +77,7 @@ miles_per_hour = miles/hours
 print(f"Your average speed is {miles_per_hour:0.1f} miles per hour.")
 ```
 
-### Output
+#### Output
 ```
 The time per mile was 5.0 minutes and 21 seconds.
 Your average speed is 11.2 miles per hour.
@@ -98,7 +98,7 @@ print(f"The volume of a sphere of radius {radius} is {volume:0.0f}.")
 ```
 
 
-### Output
+#### Output
 ```The volume of a sphere of radius 5 is 524.```
 
 
@@ -115,7 +115,7 @@ c = math.sqrt(a**2 + b**2)
 print(f"Given a right-angled triangle with side lengths\na = {a} and b = {b}, the hypotenuse is {c:0.1f}.")
 ```
 
-### Output
+#### Output
 ```
 Given a right-angled triangle with side lengths
 a = 5 and b = 9, the hypotenuse is 10.3.
