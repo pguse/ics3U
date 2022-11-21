@@ -28,7 +28,7 @@ Let's look at an example of a courses dictionary. Notice the use of the brackets
 courses = { "Math" : 75, "English" : 90, "History" : 85, "French" : 70, "Geography" : 80, "Science" : 95}
 
 for k,v in courses.items():
-    print( f"{k:<10} {v:>3}".format(k,v) )
+    print( f"{k:<10} {v:>3}" )
 ```
 
 A dictionary consist of **key-value** pairs. In our example, "Math" is a **key**, whose value is 75. The **key** replaces the concept of an **index** in a list. If we want to add another pair to our dictionary, we just create another key-value pair as follows:
