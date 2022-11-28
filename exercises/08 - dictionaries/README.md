@@ -1,6 +1,6 @@
 # Dictionaries
 
-Lists are a data structure that allow you to store multiple values using one assigned name.  Read this [note](https://github.com/pguse/ics3u-python/tree/master/notes/11%20-%20Dictionaries) for an introduction to lists.
+In Python a **dictionary** stores information that consists of what are described as an **ordered** collection of **key-value** pairs.  Read this [note](https://github.com/pguse/ics3u-python/tree/master/notes/11%20-%20Dictionaries) for an introduction to dictionaries.
 
 ## Exercises:
 
