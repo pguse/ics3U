@@ -4,13 +4,25 @@ guizero is a Python 3 library for creating simple GUIs. Before following the ste
 
 ## Step 1
 
-Using Thonny, go to the **Tools** menu and choose **Manage Packages**.  Search for the **guizero** package and install it.
-
-![](https://github.com/pguse/ics3u-python/blob/master/images/GuiZeroManagePackages.png)
+Download the [starter code](https://github.com/pguse/ics3u-python/blob/master/notes/12%20-%20guizero/myGlossary.py).  Save the starter code in an appropriately name folder on your computer.
 
 ## Step 2
 
-Download the [starter code](https://github.com/pguse/ics3u-python/blob/master/notes/12%20-%20guizero/myGlossary.py).
+### Using Visual Studio Code
+
+From within **Visual Studio Code**, open the folder with the starter code that you downloaded in Step 1.  Open up a **terminal** and type the following,
+
+```
+pip3 install guizero
+```
+
+You should now be able to use the **guizero** library.
+
+### Using Thonny
+
+Go to the **Tools** menu and choose **Manage Packages**.  Search for the **guizero** package and install it.
+
+![](https://github.com/pguse/ics3u-python/blob/master/images/GuiZeroManagePackages.png)
 
 ## Step 3
 
