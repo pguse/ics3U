@@ -102,51 +102,10 @@ because the module was imported with
 import mymath
 ```
 
-## Objects in Python Assignment:\(A - 8 marks\)
+## Exercises:
 
-**Task 1:**  Add two methods to the Fraction class called **plus\(self, f\)** and **minus\(self, f\)** that will add or subtract two fractions. (2 marks)
+**Task 1:**  Add two methods to the Fraction class called **plus\(self, f\)** and **minus\(self, f\)** that will add or subtract two fractions.
 
-**Task 2:**  Demonstrate how to use the two methods above in **main.py**. (1 mark)
+**Task 2:**  Demonstrate how to use the two methods above in **main.py**.
 
-**Task 3:** Create a new class called **Student** in a file named **student.py** \(see below\). (1 mark)
 
-![](https://lh5.googleusercontent.com/ucDesuFZY9FtMTbRzKALneF1eR9nB7MGLgTZxnpC4C77R1r2JYdpTpGX3Fq68pjIkZedLuzskFhAYR2hhWVeEbs8rx4asi1dx6wacDafnjXrbZvCtiuFsdtlMER6sNNw6fZ7qdks)
-
-**Task 4:** Create a **main.py** file that creates five Students, such as… (2 marks)
-
-```
-s1 = Student(“Armstrong”,“Christian”,“12”,“Bishop”,“Woloshyn”)
-s2 = Student(“Chen”,“Leo”,“12”,“Graham”,“PGuse”)
-s3 = Student(“Ding”,“Jack”,“12”,“Baker”,“PGuse”)
-s4 = Student(“Gu”,“Juliet”,“12”,“Graham”,“Stacey”)
-s5 = Student(“Hu”,“Amber”,“12”,“Graham”,“AGuse”)
-s6 = Student(“Jansz-Tatem”,“Eli”,“12”,“Baker”,“Holland-McLeod”)
-```
-
-**Task 5:**  In the **main.py** file create a list of the students. For example, (1 mark)
-
-```
-student_body = [s1, s2, s3, … ]
-```
-
-**Task 6:** Save your list of students, called **student\_body** to a file named **student\_body.csv**. Your file should look like the following (1 mark)
-
-_\(Notice the commas between each item\)_.
-
-```
-Armstrong, Christian, 12, Bishop, Woloshyn
-Chen, Leo, 12, Graham, PGuse
-...
-```
-
-**Note:** You’ll need to create a **string** out of each set of Student data before writing it to the file.  The format of the **string** is determined by the **\_\_str\_\_** function in the Fraction class.
-
-If your output file is assigned the variable **myFile**, then to add all the students in the list to the file use the following group of statements
-
-```
-myFile = open("student_body.csv",'w')
-for s in student_body:
-    myFile.write( str(s) )
-myFile.close()
-
-```
