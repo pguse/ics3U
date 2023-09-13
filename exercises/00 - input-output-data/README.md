@@ -2,7 +2,7 @@
 
 ## Exercises:
 
-Using **Thonny**, create separate programs to solve the following problems.
+Using **Visual Studio Code**, create separate programs to solve the following problems.
 
 ## 00-0: Hello
 Create a file called **hi.py**.  The user should enter their **name**, and the program should output the greeting **Hi *name*!**. There should be a space between the words and an exclamation point at the end next to the name. 
@@ -24,7 +24,7 @@ Perimeter: 14
 ```
 
 ## 00-2: Area of a Circle
-Create a file called **circleArea.py**.  The user should enter the **radius** of a circle, and the program should output the circle's **area**.  **Note:**  Use the **math** module for the value of PI - it is described in **Lesson 2** on **Snakify**.  
+Create a file called **circle_area.py**.  The user should enter the **radius** of a circle, and the program should output the circle's **area**.  **Note:**  Use the **math** module for the value of PI.  
 
 ### For example :
 ```
@@ -52,7 +52,7 @@ Swapped Digits:  71
 ```
 
 ## 00-5: Day of the Week *(using the modulus % operator)*
-Create a file called **dayWeek.py**.  Let's count the days of the week as follows: 0 - Sunday, 1 - Monday, 2 - Tuesday, ..., 6 - Saturday. **Given** an integer **K** in the range 1 to 365, **output** the **number** of the **day of the week** for the K-th day of the year provided that this year's January 1 is Tuesday ***(which it is for 2019)*** .  Think about how you will determine (test) if your program is working.  As a comment in your program, describe what you did to test that your program functions correctly.
+Create a file called **day_week.py**.  Let's count the days of the week as follows: 0 - Sunday, 1 - Monday, 2 - Tuesday, ..., 6 - Saturday. **Given** an integer **K** in the range 1 to 365, **output** the **number** of the **day of the week** for the K-th day of the year provided that this year's January 1 is Tuesday ***(which it is for 2019)*** .  Think about how you will determine (test) if your program is working.  As a comment in your program, describe what you did to test that your program functions correctly.
 
 ### For example :
 ```
