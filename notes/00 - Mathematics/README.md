@@ -46,7 +46,7 @@ The modulus or remainder operator calculates the remainder of a division operati
 
 ```python
 >>> 5 % 3
-1
+2
 ```
 
 ## Exercises
