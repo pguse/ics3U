@@ -34,7 +34,7 @@ NO
 ```
 
 ## 01-3: How Many Days in a Month?
-Create a file called **days_in_month.py**.  Create a program with the following specifications:  **Input:**  A month - an integer from 1 (January) to 12 (December), **Output:**  print the number of days in it in the year 2019 (or any other non-leap year).
+Create a file called **days_in_month.py**.  Create a program with the following specifications:  **Input:**  A month - an integer from 1 (January) to 12 (December), **Output:**  print the number of days in it in the year 2024 (or any other leap year).
 
 ### For example:
 ```
