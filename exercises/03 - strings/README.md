@@ -35,7 +35,7 @@ eelCtel
 ```
 
 ## 03-1: Number of Words
-Create a file called **numberOfWords.py**.  Write a program with the following specifications:
+Create a file called **number_of_words.py**.  Write a program with the following specifications:
 
 ### Input
 
@@ -52,7 +52,7 @@ Number of Words: 9
 ```
 
 ## 03-2: Two Halves
-Create a file called **twoHalves.py**.  Write a program with the following specifications:
+Create a file called **two_halves.py**.  Write a program with the following specifications:
 
 ### Input
 
@@ -92,7 +92,7 @@ hel
 In this case, length / 2 has the value 2.5.  The **math.ceil()** function take a floating-point value and rounds it up to the next highest integer.  So, **math.ceil(2.5)** has the value **3**.  Therefore, the expression **greeting[0: math.ceil( length / 2 )]** is equivalent to **greeting[0:3]**. As an aside, the **math.floor()** function rounds a floating-point value down to the next lowest integer.  So, **math.floor(2.5)** has the value **2**.
 
 ## 03-3: Replace 1
-Create a file called **replaceOne.py**.  Write a program with the following specifications:
+Create a file called **replace_one.py**.  Write a program with the following specifications:
 
 ### Input
 * A string containing 1's
