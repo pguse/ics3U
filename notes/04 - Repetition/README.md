@@ -168,7 +168,7 @@ The **while-loop** is used when you don't know the exact number of times that a 
 ```python
 n = 1
 while n > 0:
-  n = input("Enter a number: ")
+  n = int( input("Enter a number: ") )
 ```
 
 Here is an example of a **while-loop** that will end when the user enters a 'secret' number.
