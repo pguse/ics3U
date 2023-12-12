@@ -4,13 +4,13 @@ Unlike the functions created in the Turtle exercises, all of these functions hav
 
 ## Exercises:
 
-Using **Thonny**, create a file called ***functionsExercises.py*** .  Within this file,
+Using **Visual Studio Code**, create a file called ***functionsExercises.py*** .  Within this file,
 
 * create all the functions described below
-* use each function to perform a **calculation** and **output** the result
+* use each function to perform a **calculation** and **output** the result.  You should have 5 print() statements that implement each function.
 
 ## 05-0: Area of a Circle
-Write a function called ***circleArea(radius)*** that calculates and outputs the area of a circle, given its **radius**.
+Write a function called ***circle_area(radius)*** that calculates and outputs the area of a circle, given its **radius**.
 
 ## 05-1: Hypotenuse
 Write a function called ***hypotenuse(a,b)*** that calculates and returns the hypotenuse of a right triangle with sides **a** and **b**.
