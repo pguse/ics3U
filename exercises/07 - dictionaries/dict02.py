@@ -9,3 +9,4 @@ text = input("Text: ")
 # Output table
 print("Letter Frequences")
 print()
+
